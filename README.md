@@ -1,2 +1,16 @@
 # Vulnerable-API
-This  project aims at demonstrating  vulnerable  API  implementation 
+**Note**
+ This application is intentionally vulnerable and primarily used to demonstrate poor coding practices (in Python 3) and operations (Docker, etc.), showcasing specific vulnerabilities that may not be well presented in other projects. Another use case is to have an application for demonstrating various DevSecOps methods.
+
+Do Not Use Any Part of This Code in Production! It is highly vulnerable to remote code execution. Do not leave it exposed.
+
+Current Implemented Vulnerabilities:
+
+Data exposure through logic issues
+Mass assignment vulnerabilities
+Broken object-level authorization
+Broken authentication
+Remote Code Execution (RCE) via deserialization
+SQL injection
+File inclusion/path traversal
+Server-Side Template Injection
