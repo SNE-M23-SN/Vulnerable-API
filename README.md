@@ -14,3 +14,13 @@ Remote Code Execution (RCE) via deserialization
 SQL injection
 File inclusion/path traversal
 Server-Side Template Injection
+
+Usage:
+
+# Build the Docker image:
+docker build --tag vulnapi .
+# Run the Docker container:
+docker run -it --rm -p8000:8000 vulnapi
+# Open the API documentation in a web browser:
+open http://IP_OF_HOST:8000/docs
+**Pull requests are welcome, especially for interesting and subtle bugs or bad practices. FastAPI makes it easy to implement examples.**
