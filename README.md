@@ -15,6 +15,8 @@ SQL injection
 File inclusion/path traversal
 Server-Side Template Injection
 
+![image](https://github.com/SNE-M23-SN/Vulnerable-API/assets/174135229/82e1d790-af29-49b0-b6e9-c8a3a3cd0937)
+
 Usage:
 
 # Build the Docker image:
