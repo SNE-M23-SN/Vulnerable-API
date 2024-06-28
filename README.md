@@ -1,29 +1,25 @@
-# Vulnerable-API
-**Note**
- This application is intentionally vulnerable and primarily used to demonstrate poor coding practices (in Python 3) and operations (Docker, etc.), showcasing specific vulnerabilities that may not be well presented in other projects. Another use case is to have an application for demonstrating various DevSecOps methods.
+# vulnapi
+Intentionaly very vulnerable API with bonus extremely bad coding practices
 
-**Do Not Use Any Part of This Code in Production!**  It is highly vulnerable to remote code execution. Do not leave it exposed.
+*NOTE: This is by design a vulnerable application. It's primary use is to demonstrate bad coding practices (in python3) and in operations (docker, etc) and to show off specific vulnerabilities that are not well presented in some other projects. Another use if to have an application that can be used as a demo for various devsecops methods*
 
-Current Implemented Vulnerabilities:
+*DO NOT USE _ANY_ PIECE OF THIS CODE IN PRODUCTION! Really.*
+*This code is vulnerable to remote code execution, don't leave it in the open*
 
-* Data exposure through logic issues
+Current implemented vulns:
+* Couple of cases of data exposure (by triggering logic issues)
 * Mass assignment vulnerabilities
-* Broken object-level authorization
+* Broken object level autorization
 * Broken authentication
-* Remote Code Execution (RCE) via deserialization
+* RCE via deserialization
 * SQL injection
-* File inclusion/path traversal
-* Server-Side Template Injection
+* File inclusion / path traversal
+* Server Side Template Injection
 
-![image](https://github.com/SNE-M23-SN/Vulnerable-API/assets/174135229/82e1d790-af29-49b0-b6e9-c8a3a3cd0937)
 
 Usage:
+* docker build --tag vulnapi .
+* docker run -it --rm -p8000:8000 vulnapi
+* open http://IP_OF_HOST:8000/docs in a webbrowser. 
 
-* **Build the Docker image:**
-```docker build --tag vulnapi .```
-* **Run the Docker container:**
-``` docker run -it --rm -p8000:8000 vulnapi ```
-* **Open the API documentation in a web browser:**
-  ```open http://IP_OF_HOST:8000/docs.```
-
-**Pull requests are welcome, especially for interesting and subtle bugs or bad practices. FastAPI makes it easy to implement examples.**
+Pull requests, especially for cool, subtle bugs or bad practices are welcome. At least FastAPI makes it easy to implement examples. 
