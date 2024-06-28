@@ -2,7 +2,7 @@
 **Note**
  This application is intentionally vulnerable and primarily used to demonstrate poor coding practices (in Python 3) and operations (Docker, etc.), showcasing specific vulnerabilities that may not be well presented in other projects. Another use case is to have an application for demonstrating various DevSecOps methods.
 
-|**Do Not Use Any Part of This Code in Production!**  It is highly vulnerable to remote code execution. Do not leave it exposed.
+**Do Not Use Any Part of This Code in Production!**  It is highly vulnerable to remote code execution. Do not leave it exposed.
 
 Current Implemented Vulnerabilities:
 
