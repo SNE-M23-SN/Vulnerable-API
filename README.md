@@ -20,12 +20,12 @@ Current Implemented Vulnerabilities:
 ![image](https://github.com/SNE-M23-SN/Vulnerable-API/assets/174135229/fa911618-d42b-487e-8d69-4ebd54e1bb5e)
 
 
-Usage
-Build the Docker image:
+**Usage:**
+* Build the Docker image:
 ```docker build --tag vulnapi .```
-Run the Docker container: 
+* Run the Docker container: 
 ```docker run -it --rm -p8000:8000 vulnapi```
-Open the API documentation in a web browser:
+* Open the API documentation in a web browser:
 ``` open http://IP_OF_HOST:8000/docs```
 
 
